@@ -102,9 +102,4 @@ $('#terminal').terminal(function(command, term) {
    }, { prompt: '&rarr; ~ ', name: 'test' });
     $(".terminal-output").html("Type \"help\" for more information.");
 
-    $('.list-group-item').bind('click',function(){
-        console.log('Hellpo');
-        $('.list-group-item.active').removeClass('list-group-item.active').addClass('list-group-item');
-        $(this).addClass('list-group-item.active');
-    })
 });
