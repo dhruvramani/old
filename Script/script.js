@@ -42,9 +42,11 @@ $("document").ready(function ()
 
 $('#terminal').terminal(function(command, term) {
     var arr=command.trim().split(" "),
-        directories=["About","Tech-Skills","Contact"];
+        directories=["About","Tech-Skills","Projects","Contact"];
         text=['Name : Dhruv Ramani\nDOB  : November 23 1998\n\nI build things. Mostly during camping in front of the screen for a real long time. And sometimes, with a Soldering Iron in hand. I have been programming\nsince the age of 14 and tinkering with electronics since the age of 13. The fascination for computers has been since I was in 1st grade, when I got my first\ncomputer as a birthday gift.I am also a member of GDG Kuwait, which is one of the most active GDG in the Middle East and have interned under an entrepreneur\nduring Google Startup Weekend-Kuwait.\n\nTags : | All Things Tech | , | Stack Overflow | , | Open-Source | , | Quora | , | Food | , | Music | , | Swimming |',
-        'Design Skills         : HTML CSS Hype Editor\nProgramming Languages : JavaScript Python C C++ Java PHP Ruby Swift Shell SQL\nFrameworks            : jQuery Bootstrap','Stack Overflow : https://stackoverflow.com/users/4534903/dhruv-ramani\nGithub         : https://github.com/dhruvramani\nFacebook       : https://www.facebook.com/dhruv.ramani\nInstagram      : https://www.instagram.com/memeifier\nTwitter        : https://twitter.com/dhruvRamani98\nMail           : dhruvramani98@gmail.com'];
+        'Design Skills         : HTML CSS Hype Editor\nProgramming Languages : JavaScript Python C C++ Java PHP Ruby Swift Shell SQL\nFrameworks            : jQuery Bootstrap',
+        'Electronics : 2 Bit Computer, Vocal Remover\nProgramming : Zen Pencils Crawller, Misc. iOS Apps, Car Game For Command Line',
+        'Stack Overflow : https://stackoverflow.com/users/4534903/dhruv-ramani\nGithub         : https://github.com/dhruvramani\nFacebook       : https://www.facebook.com/dhruv.ramani\nInstagram      : https://www.instagram.com/memeifier\nTwitter        : https://twitter.com/dhruvRamani98\nMail           : dhruvramani98@gmail.com'];
 
     switch(arr[0].toString().toLowerCase()){
         case 'help':

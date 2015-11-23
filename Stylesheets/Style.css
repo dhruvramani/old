@@ -3,7 +3,11 @@ body,html{height: 100%;overflow-x: hidden;max-width: 100%;position: relative;}
 #About {padding-top:40px;min-height:100%; background-color: #FF745D; position: relative;}
 #Tech-Skills {padding-top:40px;min-height:100%; background-color: #1ABC9C; }
 #Contact { padding-top:40px;min-height:20%; background-color: #34495E; }
+#Projects { padding-top:40px;min-height: 100%; background-color:#6E6FF7;}
 h1{ font: "Helvetica Neue"; font-weight: lighter; color:white; text-align: center; }
+h3{text-align:center;}
+h5{font-weight: lighter; color:white;}
+hr{border-color:#3F495E;}
 #terminal{ background-color: #263238; min-height:397px;max-height: 397px; overflow: auto;border-radius: 5px;margin:0 auto;}
 .blogger{font-size: 20px; text-align: left; font-weight: lighter;}
 .fa {padding-right: 5px; color:white; font-size: 50px;}
