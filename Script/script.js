@@ -103,5 +103,5 @@ $('#terminal').terminal(function(command, term) {
     $(".prompt").html('&rarr; '+foo+'&nbsp');
    }, { prompt: '&rarr; ~ ', name: 'test' });
     $(".terminal-output").html("Type \"help\" for more information.");
-
+    $("#Contact br").addClass('hidden-xs');
 });
