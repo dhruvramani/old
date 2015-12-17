@@ -1,4 +1,4 @@
-# dhruvramani.github.io
-Personal Website
+# Personal Website
+A small little website to have a place on the internet.
 
-<code>cd About</code>
+![Website Screenshot](http://imgur.com/4naVJuO)
