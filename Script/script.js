@@ -1,7 +1,6 @@
 $("document").ready(function ()
 {
     var foo=" ~ ";
-    if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) 
     particlesJS('About', {
         particles: {
             color: '#fff',
@@ -50,7 +49,7 @@ $('#terminal').terminal(function(command, term) {
 
     switch(arr[0].toString().toLowerCase()){
         case 'help':
-            term.echo("help            : Displays This Menu\nls              : List Directory Contents\ncd              : Change Directory\nview __filename : View the contents of __filename\nhtml __name     : Go to the respective section on this page\nclear           : Clear the screen\n\n&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608; All of the parameters to commands are case sensitive &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;\n");
+            term.echo("help            : Displays This Menu\nls              : List Directory Contents\ncd              : Change Directory\nview __filename : View the contents of __filename\nhtml __name     : Go to the respective section on this page\nclear           : Clear the screen\nblog            : Open Blog\n\n\n&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608; All of the parameters to commands are case sensitive &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;\n");
             break;
         case 'ls':
             if(arr[1]!=null)
@@ -96,6 +95,12 @@ $('#terminal').terminal(function(command, term) {
                     term.echo("view: no such file : "+arr[1]+"\nUsage : view __filename : View the contents of __filename\n");
             } else 
                 term.echo("Usage : view __filename : View the contents of __filename\n");
+            break;
+        case 'blog':
+            term.echo('Opening Blog...\n');
+            setTimeout(function(){                
+                window.location.href='https://dhruvramani.github.io/Blog';
+            },1000);
             break;
         default: 
             term.echo("sh: command not found: "+arr[0]);

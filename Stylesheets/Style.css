@@ -1,7 +1,7 @@
 body,html{height: 100%;overflow-x: hidden;max-width: 100%;position: relative;}
 #name  {padding-top:50px;min-height:100%; background-color: #F8BF61;}
 #About {padding-top:40px;min-height:100%; background-color: #FF745D; position: relative;}
-#Tech-Skills {padding-top:40px;min-height:100%; background-color: #4E9CF0; }
+#Tech-Skills {padding-top:40px;min-height:100%; background-color: #3EBBF5; }
 #Contact { padding-top:35px;min-height:100%; background-color: #28D3A4; color:white;}
 #Projects { padding-top:40px;min-height: 100%; background-color:#6E6FF7;}
 h1{ font: "Helvetica Neue"; font-weight: lighter; color:white; text-align: center; }
