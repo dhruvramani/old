@@ -1,7 +1,8 @@
 $("document").ready(function ()
 {
     var foo=" ~ ";
-    particlesJS('About', {
+    if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent))) {
+        particlesJS('About', {
         particles: {
             color: '#fff',
             shape: 'circle', 
@@ -33,10 +34,12 @@ $("document").ready(function ()
         },
     detect_on: 'canvas', 
     mode: 'grab'
-    },
+        },
             
-    retina_detect: false
-});
+            retina_detect: false
+        });
+ 
+    }
 
 
 $('#terminal').terminal(function(command, term) {
